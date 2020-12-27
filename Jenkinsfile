@@ -4,7 +4,7 @@ pipeline {
     stage('test') {
       steps {
         echo 'Hello World'
-        ws(dir: 'D:\\Work\\Jenkins\\workspace_1')
+        dir(path: 'D:\\Work\\Jenkins\\workspace_1')
       }
     }
 
