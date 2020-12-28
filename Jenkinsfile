@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('test') {
+    stage('测试') {
       steps {
         echo '${branch}'
       }
